@@ -25,6 +25,12 @@ VITE_TMDB_READ_TOKEN=...     # Jeton v4 Read Access (recommandé)
 ```
 
 Un `.env.exemple` est fourni (vide). Le fichier `.env` est ignoré par Git.
+Pour avoir les clés API, rendez-vous sur ce site : https://www.themoviedb.org 
+-> Crée vous un compte
+-> Une fois connecter aller dans les Paramètres > API
+-> Puis remplissez le formulaire pour vous crée une API
+-> Copiez le "Jeton d'accès en lecture à l'API" et mettez le à coté de "VITE_TMDB_READ_TOKEN" ( dans votre `.env` ) 
+-> Copiez la "Clé d'API" et mettez le à coté de "VITE_TMDB_API_KEY" ( dans votre `.env` ) 
 
 ## Scripts NPM
 - `npm run dev` — lance le serveur de développement Vite
